@@ -42,9 +42,9 @@ class UI {
             <a target="_blank" href="${repo.html_url}">${repo.full_name}</a>            
             </div>
             <div class="col-md-6">
-            <span class="badge badge-primary">Stars: ${repo.stargazers_url}</span>
-            <span class="badge badge-secondary">Commits: ${repo.commits_url}</span>
-            <span class="badge badge-info">Created at: ${repo.created_at}</span>
+            <span class="badge badge-primary mb-2">Stars: ${repo.stargazers_url}</span>
+            <span class="badge badge-secondary mb-2">Commits: ${repo.commits_url}</span>
+            <span class="badge badge-info mb-2">Created at: ${repo.created_at}</span>
             </div>
           </div>
         </div>
