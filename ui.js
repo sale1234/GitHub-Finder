@@ -68,6 +68,7 @@ class UI {
 
     parentElement.insertBefore(div, element);
 
+    //ugasi se posle 3 sec
     setTimeout(() => {
       document.querySelector('.alert').remove();
     }, 3000);
